@@ -1,0 +1,85 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    font-family: Georgia, serif;
+    font-size: larger;
+}
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    padding: 10px;
+    background-color: rgb(57, 57, 220);
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 4px;
+    width: 1250px;
+    height: 70px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 50px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Georgia, serif;
+    font-size: larger;
+}
+
+body {
+    background-color: rgb(229, 229, 253);
+}
+
+.footer {
+    background-color: rgb(229, 229, 253);
+    padding: 20px;
+    text-align: center;
+    margin-top: 100%;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+.form-group input[type="text"],
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-color: blue;
+    background-color: rgb(196, 196, 231);
+    color: blue;
+}
+
+.btn-custom {
+    background-color: rgb(57, 57, 220);
+    color: white;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-color: #ffffff;
+}
